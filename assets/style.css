@@ -174,7 +174,8 @@
         box-sizing: border-box;
         padding: 30px 40px;
         
-        background-color:#ddd;
+        background-color: #131617;
+    
         transition: all 0.4s linear;
     
     }
@@ -245,7 +246,7 @@
     .solutions .services{
         box-sizing: border-box;
         padding: 50px 40px;
-        background-color: #ddd;
+        background-color: #131617;
         margin-bottom: 10px;
         text-align: center;
         
@@ -396,7 +397,7 @@
      .payment_option .influencer{
         box-sizing: border-box;
         padding: 50px 40px;
-        background-color: #ddd;
+        background-color: #131617;
         margin-bottom: 10px;
         text-align: center;
         
@@ -419,11 +420,12 @@
         text-transform: capitalize;
         color:#999999;
      }
+
      
      .payment_option .agency{
         box-sizing: border-box;
         padding: 50px 40px;
-        background-color: #ddd;
+        background-color: #131617;
         margin-bottom: 10px;
         text-align: center;
         
@@ -446,4 +448,143 @@
         text-transform: capitalize;
         color:#999999;
      }
+    .payment_option .service_text p{
+        color:#22cd6f;
+        font-weight: 600;
+        font-size: 30px;
+        font-family: "Oswald", serif;
+       
+    }
+    .payment_option .influencer .cbtn.pricing-btn{
+        background:#08d665;
+        padding-right:50px;
+        position:relative;
+        z-index:2;
+        color:#fff;
+        font-family: 'Rubik' , sans-serif;
+        margin-top: 25px;
+        
+    }
+    a{
+        text-decoration: none;
+    }
 
+
+    .payment_option .influencer .cbtn{
+        display: inline-block;
+        font-size: 14px;
+        text-transform: uppercase;
+        padding:13px 25px;
+        border-radius: 4px;
+        margin-bottom: 15px;
+
+
+    }
+    .payment_option .agency .cbtn.pricing-btn{
+        background:#08d665;
+        padding-right:50px;
+        position:relative;
+        z-index:2;
+        color:#fff;
+        font-family: 'Rubik' , sans-serif;
+        margin-top: 25px;
+    }
+
+    .payment_option .agency .cbtn{
+        display: inline-block;
+        font-size: 14px;
+        text-transform: uppercase;
+        padding:13px 25px;
+        border-radius: 4px;
+
+    }
+    .new_desk{
+        margin-top: 10%;
+    }
+
+    .new_desk .news_blogs{
+        text-transform: uppercase;
+    }
+    .new_desk .news_blogs small{
+        font-family: 'Rubik' , sans-serif;
+        color: var(--theme-color);
+        font-size: 16px;
+        font-weight: 500;
+    }
+     .new_desk .news_blogs h2{
+        font-family: 'oswald' ,serif;
+        font-size: 44px;
+     }
+     .new_desk .news_blogs span{
+        color:var(--theme-color);
+     }
+
+     .new_desk .new_text p{
+        border-left: 2px solid #08D665;
+        padding-left: 20px;
+        color: #fff;
+        font-family: 'Rubik' ,sans-serif;
+
+     }
+
+     .new_desk .icon_section .left-arrow{
+        border: 1px solid var(--theme-color);
+        padding:10px 15px;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: all 0.4s linear;
+     }
+     .new_desk .icon_section .left-arrow:hover{
+        background-color: var(--theme-color);
+        transition: all 0.4s linear;
+        color:#fff;
+     }
+
+     
+     .new_desk .icon_section .right-arrow{
+        border: 1px solid var(--theme-color);
+        padding:10px 15px;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: all 0.4s linear;
+     }
+
+     .new_desk .icon_section .right-arrow:hover{
+        background-color: var(--theme-color);
+        transition: all 0.4s linear;
+        color:#fff;
+     }
+
+     .blogs{
+        margin-top: 10%;
+     }
+ .blogs a{
+   text-decoration: none;
+   color:#000;
+   
+ }
+
+ .blogs .new_line{
+    font-size: 16px;
+    font-family: 'Rubik',sans-serif;
+    text-transform: capitalize;
+    font-weight: 500;
+ } 
+
+ .blogs a{
+    font-size: 20px;
+    font-family: 'Rubik',sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 20px 0;
+    transition: all 0.4s linear;
+
+ } 
+
+ 
+ .blogs a:hover{
+
+    color:#08D665;
+    transition: all 0.4s linear;
+    
+ } 
