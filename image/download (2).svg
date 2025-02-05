@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 83 98" width="83" height="98">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M0 0L83 0L83 98L0 98Z" />
+		</clipPath>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ffffff } 
+		.shp1 { fill: #62e6ac } 
+	</style>
+	<g id="Page 1" clip-path="url(#cp1)">
+		<path id="Path 1" fill-rule="evenodd" class="shp0" d="M65.98 60.01L36.99 89L8 60.01L36.99 31.02L65.98 60.01ZM9.41 60.01L36.99 87.59L64.57 60.01L36.99 32.43L9.41 60.01Z" />
+		<path id="Path 2" class="shp1" d="M0.71 29.01L28.99 57.29L57.28 29.01L28.99 0.72L0.71 29.01Z" />
+		<path id="Path 3" fill-rule="evenodd" class="shp0" d="M57.98 29.01L28.99 58L0 29.01L28.99 0.02L57.98 29.01ZM28.99 56.59L56.57 29.01L28.99 1.43L1.41 29.01L28.99 56.59Z" />
+		<path id="Path 4" class="shp1" d="M25.71 29.01L53.99 57.29L82.28 29.01L53.99 0.72L25.71 29.01Z" />
+		<path id="Path 5" fill-rule="evenodd" class="shp0" d="M82.98 29.01L53.99 58L25 29.01L53.99 0.02L82.98 29.01ZM53.99 56.59L81.57 29.01L53.99 1.43L26.41 29.01L53.99 56.59Z" />
+		<path id="Path 6" class="shp1" d="M17.71 69.01L45.99 97.29L74.28 69.01L45.99 40.72L17.71 69.01Z" />
+		<path id="Path 7" fill-rule="evenodd" class="shp0" d="M45.99 40.02L74.98 69.01L45.99 98L17 69.01L45.99 40.02ZM45.99 96.59L73.57 69.01L45.99 41.43L18.41 69.01L45.99 96.59Z" />
+	</g>
+</svg>
