@@ -8,37 +8,41 @@
     
     
     }
-    body{
+    /* body{
         color:#fff;
         background-color: black;
-    }
+    } */
     
     :root
     {
-        --theme-color:#08D665;
+        --theme-color:#c08310;
+    }
+
+    html{
+        scroll-behavior: smooth;
     }
     
     .navbar ul{
     
     font-size: 17px;
-    font-family: "Exo 2", serif;
+    font-family: "Rubik", serif;
     gap:10px;
-    
+    font-weight: 500;
         
     }
-    .navbar, .navbar a, .navbar button, .navbar .nav-link, .dropdown-menu a {
+    /* .navbar, .navbar a, .navbar button, .navbar .nav-link, .dropdown-menu a {
         color: white !important;
       }
       
       .dropdown-menu {
         background-color: black;
-      }
-    .navbar ul li a{
+      } */
+    /* .navbar ul li a{
    
         color:#fff;
         
             
-        }
+        } */
     
     
     
@@ -174,9 +178,10 @@
         box-sizing: border-box;
         padding: 30px 40px;
         
-        background-color: #131617;
+        background-color: #ddd;
     
         transition: all 0.4s linear;
+        cursor: pointer;
     
     }
     .experience .skill_box:hover{
@@ -246,7 +251,7 @@
     .solutions .services{
         box-sizing: border-box;
         padding: 50px 40px;
-        background-color: #131617;
+        background-color: #ddd;
         margin-bottom: 10px;
         text-align: center;
         
@@ -449,14 +454,14 @@
         color:#999999;
      }
     .payment_option .service_text p{
-        color:#22cd6f;
+        color:#bd8b2e;
         font-weight: 600;
         font-size: 30px;
         font-family: "Oswald", serif;
        
     }
     .payment_option .influencer .cbtn.pricing-btn{
-        background:#08d665;
+        background:var(--theme-color);
         padding-right:50px;
         position:relative;
         z-index:2;
@@ -481,7 +486,7 @@
 
     }
     .payment_option .agency .cbtn.pricing-btn{
-        background:#08d665;
+        background:var(--theme-color);
         padding-right:50px;
         position:relative;
         z-index:2;
@@ -520,9 +525,9 @@
      }
 
      .new_desk .new_text p{
-        border-left: 2px solid #08D665;
+        border-left: 2px solid var(--theme-color);
         padding-left: 20px;
-        color: #fff;
+        color: #131617;
         font-family: 'Rubik' ,sans-serif;
 
      }
@@ -584,7 +589,116 @@
  
  .blogs a:hover{
 
-    color:#08D665;
+    color:var(--theme-color);
     transition: all 0.4s linear;
     
  } 
+
+ 
+
+
+ a.readmore-btn {
+    color:var(--theme-color);
+    text-transform: uppercase;
+    font-size: 12px;
+    margin: 0;
+}
+.padding_top{
+    padding-top: 120px;
+}
+.news_letter .space-20{
+    height:20px;
+}
+ 
+.news_letter .heading small{
+    font-weight: 500;
+    color:#bd8b2e;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.news_letter h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'oswald',serif;
+    font-size: 48px;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+
+.news_letter h2 span{
+
+    color:#bd8b2e;
+}
+
+.space-40{
+    height:40px;
+}
+.form_class{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    padding:15px 15px;
+    background-color: #32383A;
+    border-radius: 5px;
+    border: 1px solid var(--theme-color);
+    color:#fff;
+    margin-bottom: 20px;
+}
+
+.form_class a{
+    text-decoration: none;
+    color:#fff;
+
+}
+
+.form_class .subscribe-btn{
+    padding:18px 40px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    background-color: var(--theme-color);
+    font-family: 'Rubik',sans-serif;
+    transition: all 0.5s linear;
+
+}
+.form_class .subscribe-btn:hover{
+   background-color: var(--theme-color);
+   background: transparent;
+   color:var(--theme-color);
+   border: 1px solid var(--theme-color);
+   transition: all 0.4s linear;
+}
+.footer_section{
+    margin-top: 12%;
+    margin-bottom: 13%;
+}
+.small_footer .footer_menu ul li a{
+    text-decoration: none;
+    color:#131617;
+    font-family: 'Rubik',sans-serif;
+    font-size: 16px;
+    padding: 0 9px;
+    transition: all 0.4s linear;
+    font-weight: 500;
+
+
+}
+.small_footer .footer_menu ul li a:hover{
+
+    color:var(--theme-color);
+    transition: all 0.4s linear;
+}
+
+.small_footer  .footer_menu ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.small_footer .footer_menu ul li {
+    
+    list-style: none;
+    text-transform: uppercase;
+    color:#131617;
+}
+
