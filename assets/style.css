@@ -701,4 +701,44 @@ input{
     text-transform: uppercase;
     color:#131617;
 }
+@media only screen and (max-width: 768px) {
+
+   .getting_started{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 45px;
+   }
+   .form_class{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+   }
+
+    .footer_section .img_class{
+        margin-bottom: 40px;
+        margin-left: 85px;
+
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+    .footer_menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;    
+    margin-right: 102px;
+}
+
+.footer_menu ul li {
+  margin: 10px 0; 
+}
+
+    
+}
 
